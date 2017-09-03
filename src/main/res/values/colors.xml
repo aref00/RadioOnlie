@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#555555</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="iosblue">#ff0044e2</color>
+    <color name="gray">#171616</color>
+    <color name="germez">#d32f2f</color>
+    <color name="gray_toosi">#0cffffff</color>
+    <color name="sormei">#202c3d</color>
+    <color name="toosi">#555555</color>
+    <color name="md__transparent">#00000000</color>
+    <color name="md__defaultBackground">#FF555555</color>
+</resources>

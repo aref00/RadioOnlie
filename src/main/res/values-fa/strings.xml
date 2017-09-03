@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Radio Online</string>
+    <string name="about">درباره ما</string>
+    <string name="about_action_bar">درباره ما</string>
+    <string name="about_string">این نرم افزار طراحی و برنامه نویسی شده در گروه برنامه نویسی RF است ,\n برنامه نویس  :  عارف اکبری \n طراحی  :  شهاب پاپون  \n آدرس ایمیل : arefrf2010@gmail.com</string>
+    <string name="add">اضافه کردن</string>
+    <string name="browse">جستوجو</string>
+    <string name="cancel">بیخیال</string>
+    <string name="exit">خدانگهدار</string>
+    <string name="favourite">علاقه مندی ها</string>
+    <string name="name">نام</string>
+    <string name="ok">قبوله</string>
+    <string name="preparation">در حال آماده سازی</string>
+    <string name="url">ادرس</string>
+    <string name="help">راهنما</string>
+    <string name="distroy_string">برای پخش رادیو در پس زمینه ی بقیه برنامه ها , خاموش نکنید.</string>
+    <string name="shutdown">خاموش کردن</string>
+    <string name="keep_radio">پخش در پس زمینه </string>
+    <string name="name_hint">نام تکراری , رادیوی موجود را تغییر می دهد</string>
+</resources>

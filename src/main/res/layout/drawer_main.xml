@@ -1,0 +1,155 @@
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#202c3d"
+            android:gravity="center_vertical|center_horizontal">
+
+            <FrameLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center_vertical|center_horizontal">
+
+                <android.support.v4.view.ViewPager
+                    android:isScrollContainer="false"
+                    android:id="@+id/gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="40"/>
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/next"
+                    android:layout_weight="0"
+                    android:onClick="next"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/ic_image_navigate_next"/>
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/before"
+                    android:layout_weight="0"
+                    android:onClick="before"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/ic_navigation_chevron_left"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <SeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekBar"
+                        android:layout_weight="2"
+                        android:indeterminate="false"
+                        android:layout_marginLeft="16dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/audio_state"
+                        android:src="@drawable/ic_av_volume_up"
+                        android:layout_marginRight="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|top">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView10"
+                        android:src="@drawable/menu_arrow_bottom"
+                        android:layout_weight="1"
+                        android:background="#555555"/>
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/add"
+                    android:src="@drawable/add_button"
+                    android:layout_marginRight="40dp"
+                    android:onClick="add"
+                    />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/button"
+                    android:background="@drawable/pause_button"/>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/button2"
+                    android:background="@drawable/play_button"/>
+
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/button3"
+                    android:background="@drawable/stop_button"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ciew_current"
+                    android:src="@drawable/visible_button"
+                    android:layout_marginLeft="40dp"
+                    android:onClick="see_current"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>

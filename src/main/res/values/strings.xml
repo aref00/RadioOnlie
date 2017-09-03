@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Radio Online</string>
+    <string name="preparation">Preparation</string>
+    <string name="buffering" translatable="false">notification </string>
+    <string name="cancel">Cancel</string>
+    <string name="url">URL</string>
+    <string name="add">add</string>
+    <string name="about_action_bar">About</string>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="about_string">This application was designed and developed in RF group, \n Programmer : MR.Aref Akbari \n D3sign3r : MR.Shahab Papoon \n Email Addresses : arefrf2010@gmail.com \n And : shahabpapoon@gmail.com</string>
+    <string name="help">Help</string>
+    <string name="name_hint">if exists , would replace previous.</string>
+    <string name="url_hint" translatable="false">http://server_ip:port</string>
+    <string name="browse">Browse</string>
+    <string name="favourite">Favorites</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="connection_error" translatable="false"> Connection problem.</string>
+    <string name="buffer_fault" translatable="false">Buffering fault</string>
+    <string name="buffer_error" translatable="false">buffer error, click on this , then try again</string>
+    <string name="distroy_string">if you want to let radio to be played in background don\'t shutdown.</string>
+    <string name="keep_radio">Keep it in background</string>
+    <string name="shutdown">Shutdown</string>
+
+</resources>
